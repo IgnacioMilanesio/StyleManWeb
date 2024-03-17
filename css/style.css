@@ -1052,14 +1052,14 @@ form h6{
 /*+++++++++++++++++++++++++++++++++++++++++ PAGINA AROMAS  +++++++++++++++++++++++++++++++++++++++ */
 
 
-.aromas{
-  grid-template-columns: repeat(2,fr);
-  grid-template-rows: repeat(2,auto);
+/* .aromas{
+  grid-template-columns: repeat(3,fr);
+  grid-template-rows: repeat(1,auto);
   grid-template-areas:
-  "aroma1 aroma2"
-  "aroma3 aroma3"
+  "aroma1 aroma2 aroma3"
+
   ;
-}
+} */
 /*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA AROMAS +++++++++++++++++++++++++++++++++++++++ */
 
 
