@@ -198,6 +198,13 @@ header a{
     color: #FFFFFF;
 }
 
+.abrir-menu{
+  display: none;
+}
+.cerrar-menu{
+  display: none;
+}
+
 /* -------------- FIN BARRA DE NAVEGACION-------------- */
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FIN HEADER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -245,11 +252,11 @@ footer{
 
   grid-template-columns: repeat(3, auto);
   grid-template-rows: auto;
-  grid-template-areas: 
+  grid-template-areas:
   "Asistencia AcercadeStyleMan Seguinos"
   ;
 
-}  
+}
 .Asistencia{
   grid-area: Asistencia;
 }
@@ -409,7 +416,7 @@ video{
   border-radius: 2.4375rem;
   margin: 1rem;
   padding: 1rem;
-  
+
   align-items: center;
 
   display: grid;
@@ -583,7 +590,7 @@ video{
   margin: 2rem;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 1fr;
-  grid-template-areas: 
+  grid-template-areas:
   "aroma1 aroma2 aroma3"
   ;
 }
@@ -631,7 +638,7 @@ video{
 
   grid-template-columns: repeat(7,1fr);
   grid-template-rows: 1fr;
-  grid-template-areas: 
+  grid-template-areas:
   "accesorio1 accesorio1 accesorio1 tittleAccesorio accesorio2 accesorio2 accesorio2"
 
 
@@ -642,7 +649,7 @@ video{
   max-width: 8rem;
   max-height: 8rem;
   margin: .6rem;
-  
+
 }
 
 .accesorios h5{
@@ -712,7 +719,7 @@ video{
   margin: 4rem;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto;
-  grid-template-areas: 
+  grid-template-areas:
   "seccionExp1 seccionExp2"
   ;
 }
@@ -756,7 +763,7 @@ video{
   flex-direction: row;
   align-items: center;
   text-align: left;
-} 
+}
 
 /* ---------Fin Formatos generales----------- */
 
@@ -779,7 +786,7 @@ form{
 .conteinerForm{
   margin: 1rem;
   align-items: center;
-  
+
 }
 
 form h6{
@@ -915,6 +922,46 @@ form h6{
 
 
 @media (max-width: 1024px){
+/*+++++++++++++++++++++++++++++++++++++++ NAV ++++++++++++++++++++++++++++++++++++++ */
+
+.abrir-menu,
+.cerrar-menu{
+  display: block;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color:#FFFFFF;
+}
+
+.nav{
+  opacity: 0;
+  visibility: hidden;
+} 
+.nav{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: end;
+  gap: 1rem;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background-color: #A81818;
+  padding: 1rem;
+}
+.navBar{
+  flex-direction: column;
+  align-items: end;
+}
+.nav.visible{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+/*+++++++++++++++++++++++++++++++++++++++ FIN NAV ++++++++++++++++++++++++++++++++++++++ */
+
 
   /*+++++++++++++++++++++++++++++++++++++++ PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
   .moda-1{
@@ -1013,7 +1060,7 @@ form h6{
   gap:2rem;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3,auto);
-  grid-template-areas: 
+  grid-template-areas:
   "tittleAccesorio"
   "accesorio1"
   "accesorio2"
@@ -1033,7 +1080,7 @@ form h6{
   margin: .1rem;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  grid-template-areas: 
+  grid-template-areas:
   "seccionExp1"
   "seccionExp2"
   ;
@@ -1093,7 +1140,7 @@ form h6{
 .aromas{
   grid-template-columns: repeat(2,fr);
   grid-template-rows: repeat(2,auto);
-  grid-template-areas: 
+  grid-template-areas:
   "aroma1 aroma2"
   "aroma3 aroma3"
   ;
@@ -1112,13 +1159,13 @@ footer{
   gap: 1rem;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
-  grid-template-areas: 
+  grid-template-areas:
   "AcercadeStyleMan Seguinos"
   "Asistencia Seguinos"
 
   ;
 
-}  
+}
 
 
 /*+++++++++++++++++++++++++++++++++++++++++ FIN FOOTER ++++++++++++++++++++++++++++++++++++++ */
@@ -1175,7 +1222,7 @@ footer{
   }
   footer p{
     font-size: .75rem;
-  } 
+  }
   /*+++++++++++++++++++++++++++++++++++++++ FIN GENERALES ++++++++++++++++++++++++++++++++++++++ */
 
 
@@ -1185,7 +1232,7 @@ footer{
 
   /*+++++++++++++++++++++++++++++++++++++++ PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
   .moda-1{
-  border-right: .275rem solid #FFD700; 
+  border-right: .275rem solid #FFD700;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, auto);
   grid-template-areas:
@@ -1199,7 +1246,7 @@ footer{
   }
 
   .moda-2{
-    border-left: .275rem solid #FFD700; 
+    border-left: .275rem solid #FFD700;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     grid-template-areas:
@@ -1232,7 +1279,7 @@ footer{
 
  .estilo1{
   align-items: center;
-  
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, auto);
@@ -1243,7 +1290,7 @@ footer{
 }
  .estilo2{
   align-items: center;
-  
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, auto);
@@ -1282,11 +1329,11 @@ footer{
 }
 
  .looksRight p{
-  text-align: justify;
+  text-align: center;
 }
 
  .looksLeft p{
-  text-align: justify;
+  text-align: center;
 }
 
 /*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA LOOKS +++++++++++++++++++++++++++++++++++++++ */
@@ -1304,10 +1351,10 @@ footer{
   gap:2rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2,auto);
-  grid-template-areas: 
+  grid-template-areas:
   "tittleAccesorio tittleAccesorio"
   "accesorio1 accesorio2"
-  
+
 }
 
 .accesorio1{
@@ -1368,14 +1415,14 @@ footer{
 .aromas{
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3,auto);
-  grid-template-areas: 
+  grid-template-areas:
   "aroma1"
   "aroma2"
   "aroma3"
   ;
 }
 .aromas p{
-  text-align: justify;
+  text-align: center;
 
 }
 
@@ -1393,7 +1440,7 @@ footer{
   gap:2rem;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3,auto);
-  grid-template-areas: 
+  grid-template-areas:
   "tittleAccesorio"
   "accesorio1"
   "accesorio2"
@@ -1413,19 +1460,19 @@ footer{
   gap: 1rem;
   grid-template-columns: 1FR;
   grid-template-rows: repeat(3, auto);
-  grid-template-areas: 
+  grid-template-areas:
   "AcercadeStyleMan"
   "Asistencia"
   "Seguinos"
   ;
 
-}  
+}
 
 footer div{
   display: flex;
   flex-direction:column;
   align-items: start;
-} 
+}
 
 
 .icon{
