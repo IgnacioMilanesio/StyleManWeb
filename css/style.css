@@ -727,14 +727,14 @@ video{
   ; */
 }
 
-.seccionExp1{
+/* .seccionExp1{
   grid-area: seccionExp1;
 
 }
 .seccionExp2{
   grid-area: seccionExp2;
 
-}
+} */
 
 .experiencias h4 {
   text-align: center;
@@ -895,10 +895,12 @@ form h6{
 
 .mapa{
   border-radius: 2.5rem;
-  margin: 1rem;
+  margin-right: 10%;
+  margin-left: 10%;
   aspect-ratio: 1/1;
-  width: 100%;
+  width: 80%;
   height: auto;
+  
 }
 
 /* ------------- Fin Mapa/ubicacion -------------- */
