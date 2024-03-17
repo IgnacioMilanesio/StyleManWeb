@@ -163,6 +163,7 @@ header{
   align-items: center;
   position: sticky;
   top: 0;
+
 }
 
 header a{
@@ -581,17 +582,18 @@ video{
   border-radius: 1.875rem;
   background: rgba(0, 0, 0, 0.67);
   text-align: center;
+  margin-bottom: 0.25rem;
 }
 
 .aromas{
-  display: grid;
-  gap: 1rem;
+  /* display: grid; */
+  /* gap: 2rem;  */
   text-align: center;
-  margin: 2rem;
-  grid-template-columns: repeat(3,1fr);
+  margin-bottom: 2rem;
+  /* grid-template-columns: repeat(3,1fr);
   grid-template-rows: 1fr;
   grid-template-areas:
-  "aroma1 aroma2 aroma3"
+  "aroma1 aroma2 aroma3" */
   ;
 }
 
@@ -601,6 +603,7 @@ video{
 }
 
 .aromas div img{
+  margin-top: 0.8rem ;
   border-radius: 2.5rem;
   width: 100%;
   height: 100%;
@@ -608,7 +611,7 @@ video{
   max-height: 15rem;
 }
 
-.aroma1{
+/* .aroma1{
   grid-area: aroma1;
 }
 .aroma2{
@@ -616,7 +619,7 @@ video{
 }
 .aroma3{
   grid-area: aroma3;
-}
+} */
 
 /* ************************************** FIN PAGINA FRAGANCIAS ****************************************** */
 
@@ -714,14 +717,14 @@ video{
 
 /* ---------Formatos generales----------- */
 .experiencias{
-  display: grid;
+  /* display: grid; */
   gap: 6rem;
   margin: 4rem;
-  grid-template-columns: repeat(2,1fr);
+  /* grid-template-columns: repeat(2,1fr);
   grid-template-rows: auto;
   grid-template-areas:
   "seccionExp1 seccionExp2"
-  ;
+  ; */
 }
 
 .seccionExp1{
@@ -1049,7 +1052,7 @@ form h6{
   }
 
 /*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA LOOKS +++++++++++++++++++++++++++++++++++++++ */
-/*+++++++++++++++++++++++++++++++++++++++++ PAGINA AROMAS  +++++++++++++++++++++++++++++++++++++++ */
+/*+++++++++++++++++++++++++++++++++++++++++ PAGINA FREGANCIAS  +++++++++++++++++++++++++++++++++++++++ */
 
 
 /* .aromas{
@@ -1060,7 +1063,7 @@ form h6{
 
   ;
 } */
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA AROMAS +++++++++++++++++++++++++++++++++++++++ */
+/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA FREGANCIAS +++++++++++++++++++++++++++++++++++++++ */
 
 
 
@@ -1087,12 +1090,12 @@ form h6{
 .experiencias{
   gap: 0rem;
   margin: .1rem;
-  grid-template-columns: 1fr;
+  /* grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
   "seccionExp1"
   "seccionExp2"
-  ;
+  ; */
 }
 
 .mapa{
@@ -1146,14 +1149,14 @@ form h6{
 
 /*+++++++++++++++++++++++++++++++++++++++++ PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
 
-.aromas{
+/* .aromas{
   grid-template-columns: repeat(2,fr);
   grid-template-rows: repeat(2,auto);
   grid-template-areas:
   "aroma1 aroma2"
   "aroma3 aroma3"
   ;
-}
+} */
 
 /*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
 
@@ -1421,7 +1424,7 @@ footer{
 
 /*+++++++++++++++++++++++++++++++++++++++++ PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
 
-.aromas{
+/* .aromas{
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3,auto);
   grid-template-areas:
@@ -1433,7 +1436,7 @@ footer{
 .aromas p{
   text-align: center;
 
-}
+} */
 
 /*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
 
