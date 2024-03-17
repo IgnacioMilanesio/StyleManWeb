@@ -1049,9 +1049,18 @@ form h6{
   }
 
 /*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA LOOKS +++++++++++++++++++++++++++++++++++++++ */
+/*+++++++++++++++++++++++++++++++++++++++++ PAGINA AROMAS  +++++++++++++++++++++++++++++++++++++++ */
 
 
-
+.aromas{
+  grid-template-columns: repeat(2,fr);
+  grid-template-rows: repeat(2,auto);
+  grid-template-areas:
+  "aroma1 aroma2"
+  "aroma3 aroma3"
+  ;
+}
+/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA AROMAS +++++++++++++++++++++++++++++++++++++++ */
 
 
 
