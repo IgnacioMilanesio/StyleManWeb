@@ -19,24 +19,24 @@
 
 
 
-/* ------------------- RESET PARA ELIMINAR FORMATOS PREDETERMINADOS DE NAVEGADORES ------------------- */
+/* --- RESET PARA ELIMINAR FORMATOS PREDETERMINADOS DE NAVEGADORES --- */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* ------------------ FIN RESET PARA ELIMINAR FORMATOS PREDETERMINADOS DE NAVEGADORE ---------------- */
+/* ---FIN RESET PARA ELIMINAR FORMATOS PREDETERMINADOS DE NAVEGADORE --- */
 
-/* ---------------------- IMPORTAR FUENTE DESDE GOOGLE FONTS -------------------- */
+/* --- IMPORTAR FUENTE DESDE GOOGLE FONTS --- */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* ---------------------- FIN IMPORTAR FUENTE DESDE GOOGLE FONTS ------------------ */
+/* ---FIN IMPORTAR FUENTE DESDE GOOGLE FONTS --- */
 
 
-/**************************************** GENERALIDADES ******************************************/
+/*** GENERALIDADES ***/
 
-/* ----------- TITULOS/FORMATOS ESTANDAR:SELECTORES DE ETIQUETAS GENERALES ------------- */
+/* --- TITULOS/FORMATOS ESTANDAR:SELECTORES DE ETIQUETAS GENERALES --- */
 
 h1{
     color: #FFFFFF;
@@ -111,10 +111,10 @@ p{
   font-size: 1.125rem;
 }
 
-/* ------------ FIN TITULOS/FORMATOS ESTANDAR:SELECTORES DE ETIQUETAS GENERALES ---------- */
+/* ---FIN TITULOS/FORMATOS ESTANDAR:SELECTORES DE ETIQUETAS GENERALES --- */
 
 
-/* ------------ PARRAFOS/FORMATOS ESTANDAR: SELECTORES DE ETIQUETAS ESPECIFICAS --------------- */
+/* --- PARRAFOS/FORMATOS ESTANDAR: SELECTORES DE ETIQUETAS ESPECIFICAS --- */
 
 header p{
     color: #FFFFFF;
@@ -138,12 +138,12 @@ footer p{
     font-style: normal;
     font-size: 1.125rem;
 }
-/* ------------- FIN PARRAFOS/FORMATOS ESTANDAR: SELECTORES DE ETIQUETAS ESPECIFICAS -------------- */
+/* --- FIN PARRAFOS/FORMATOS ESTANDAR: SELECTORES DE ETIQUETAS ESPECIFICAS --- */
 
 
 
 
-/************************************** FIN GENERALIDADES ************************************/
+/*** FIN GENERALIDADES ***/
 
 
 
@@ -151,9 +151,9 @@ footer p{
 
 
 
-/****************************************** ESTRUCURA BASE ****************************************/
+/*** ESTRUCURA BASE ***/
 
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HEADER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/*<<< HEADER <<< */
 
 header{
   display: flex;
@@ -174,7 +174,7 @@ header a{
   transition: color 0.3s ease;
 }
 
-/* ------------ BARRA DE NAVEGACION------------------- */
+/* --- BARRA DE NAVEGACION --- */
 
 .navBar{
   display: flex;
@@ -206,11 +206,11 @@ header a{
   display: none;
 }
 
-/* -------------- FIN BARRA DE NAVEGACION-------------- */
+/* --- FIN BARRA DE NAVEGACION --- */
 
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FIN HEADER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*<<< FIN HEADER <<<*/
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< BODY <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* <<< BODY <<< */
 
 .comentarios{
   width: 100%;
@@ -236,11 +236,11 @@ body {
 }
 
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FIN BODY <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* <<< FIN BODY << */
 
 
 
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*<<< FOOTER <<<*/
 
 footer a{
   text-decoration: none;
@@ -283,19 +283,19 @@ footer a:hover p{
   transition: color 0.3s ease;
 }
 
-/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FIN FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+/*<<< FIN FOOTER <<<*/
 
 
-/****************************************** FIN ESTRUCURA BASE ****************************************/
-
-
-
+/*** FIN ESTRUCURA BASE ***/
 
 
 
 
 
-/* ************************************** PAGINA MODA ****************************************** */
+
+
+
+/* *** PAGINA MODA *** */
 
 
 video{
@@ -306,7 +306,7 @@ video{
   height: auto;
 }
 
-/* -------------------------------- Preliminares del sitio --------------------------------*/
+/* --- Preliminares del sitio ---*/
 
 
 .preliminares{
@@ -348,6 +348,8 @@ video{
   height: auto;
   max-width: 10rem;
   max-height: 10rem;
+/* ATENCION ATRIBUTO OBJECT */
+  object-fit: fill;
 }
 
 .image-container:hover img {
@@ -355,11 +357,11 @@ video{
 }
 
 
-/* -------------------------------- Fin Preliminares del sitio ------------------------------------*/
+/* --- Fin Preliminares del sitio ---*/
 
 
 
-/* ------------------------------- Seccion Explora el espectro del estilo -------------------------*/
+/* --- Seccion Explora el espectro del estilo ---*/
 
 .moda-1{
   gap: 1rem;
@@ -396,6 +398,7 @@ video{
   height: 20.625rem;
   border-bottom: .375rem solid #FFD700;
   border-radius: 2.5rem;
+  
 }
 
 .moda-1 div h5{
@@ -403,10 +406,10 @@ video{
   margin-bottom: 0.5rem;
 }
 
-/* ------------------------------ Fin Seccion Explora el espectro del estilo -----------------------------*/
+/* --- Fin Seccion Explora el espectro del estilo ---*/
 
 
-/* ------------------------------- Seccion Hazte de las melodias perfumadas ----------------------------- */
+/* --- Seccion Hazte de las melodias perfumadas --- */
 
 .moda-2{
   gap: 1rem;
@@ -453,18 +456,18 @@ video{
   margin-bottom: 0.5rem;
 }
 
-/* ---------------------------------- Fin Seccion Hazte de las melodias perfumadas -------------------------- */
+/* --- Fin Seccion Hazte de las melodias perfumadas --- */
 
-/* ************************************** FIN PAGINA MODA ****************************************** */
-
-
+/* *** FIN PAGINA MODA *** */
 
 
 
 
-/* ************************************** PAGINA LOOKS ****************************************** */
 
-/* --------Right------------ */
+
+/* *** PAGINA LOOKS *** */
+
+/* --- Right --- */
 
 .looksRight{
   gap: 1rem;
@@ -495,11 +498,13 @@ video{
 }
 
 .looksRight img{
-  border-radius: 2.5rem;
+  border-radius: 2rem;
   width: 100%;
   height: 100%;
   max-width: 12rem;
   max-height: 15rem;
+  
+  object-fit:fill;
 }
 
 .looksRight h4{
@@ -508,7 +513,7 @@ video{
   grid-area: h4;
 }
 
-/* --------Fin Right------------ */
+/* --- Fin Right --- */
 
 /*  Llamado a estilos */
 
@@ -522,7 +527,7 @@ video{
   grid-area: estilo3;
 }
 
-/* ----------Left ---------- */
+/* --- Left --- */
 
 .looksLeft{
   gap: 1rem;
@@ -552,11 +557,13 @@ video{
 }
 
 .looksLeft img{
-  border-radius: 2.5rem;
+  border-radius: 2rem;
   width: 100%;
   height: 100%;
   max-width: 12rem;
   max-height: 15rem;
+  
+  object-fit: fill;
 }
 .looksLeft h4{
   transform: rotate(-90deg);
@@ -564,16 +571,16 @@ video{
   grid-area: h4;
 }
 
-/* ---------Fin Left----------- */
+/* --- Fin Left --- */
 
-/* ************************************** FIN PAGINA LOOKS ****************************************** */
-
-
+/* *** FIN PAGINA LOOKS *** */
 
 
 
 
-/* ************************************** PAGINA FRAGANCIAS ****************************************** */
+
+
+/* *** PAGINA FRAGANCIAS *** */
 
 
 .aromaTipo{
@@ -609,6 +616,8 @@ video{
   height: 100%;
   max-width: 12rem;
   max-height: 15rem;
+  /* ATENCION ATRIBUTO OBJECT */
+  object-fit: fill;
 }
 
 /* .aroma1{
@@ -621,12 +630,12 @@ video{
   grid-area: aroma3;
 } */
 
-/* ************************************** FIN PAGINA FRAGANCIAS ****************************************** */
+/* *** FIN PAGINA FRAGANCIAS *** */
 
 
 
 
-/* ************************************** PAGINA ACCESORIOS ****************************************** */
+/* *** PAGINA ACCESORIOS *** */
 
 
 .accesorios{
@@ -705,7 +714,7 @@ video{
 .imgAcc2{
   grid-area: imgAcc2;
 }
-/* ************************************** FIN PAGINA ACCESORIOS ****************************************** */
+/* *** FIN PAGINA ACCESORIOS *** */
 
 
 
@@ -713,9 +722,9 @@ video{
 
 
 
-/* ************************************** PAGINA EXPERIENCIAS ****************************************** */
+/* *** PAGINA EXPERIENCIAS *** */
 
-/* ---------Formatos generales----------- */
+/* --- Formatos generales --- */
 .experiencias{
   /* display: grid; */
   gap: 6rem;
@@ -768,9 +777,9 @@ video{
   text-align: left;
 }
 
-/* ---------Fin Formatos generales----------- */
+/* --- Fin Formatos generales --- */
 
-/* -------------Formulario-------------- */
+/* --- Formulario --- */
 
 
 form{
@@ -884,10 +893,10 @@ form h6{
   font-size: 1.5rem;
 }
 
-/* -------------Fin Formulario-------------- */
+/* --- Fin Formulario --- */
 
 
-/* ------------- Mapa/ubicacion -------------- */
+/* --- Mapa/ubicacion --- */
 .ir-a-ubicacion{
   width: 100%;
   height: 100%;
@@ -903,19 +912,19 @@ form h6{
   
 }
 
-/* ------------- Fin Mapa/ubicacion -------------- */
+/* --- Fin Mapa/ubicacion --- */
 
-/* ************************************** FIN PAGINA EXPERIENCIAS ****************************************** */
-
-
+/* *** FIN PAGINA EXPERIENCIAS *** */
 
 
 
 
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* ////////////////////////////////////////// RESPONSIVE DIMENSIONS 1024px //////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/* /// RESPONSIVE DIMENSIONS 1024px /// */
+
 
 
 
@@ -927,7 +936,7 @@ form h6{
 
 
 @media (max-width: 1024px){
-/*+++++++++++++++++++++++++++++++++++++++ NAV ++++++++++++++++++++++++++++++++++++++ */
+/*+++ NAV +++ */
 
 .abrir-menu,
 .cerrar-menu{
@@ -965,10 +974,10 @@ form h6{
 }
 
 
-/*+++++++++++++++++++++++++++++++++++++++ FIN NAV ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN NAV +++ */
 
 
-  /*+++++++++++++++++++++++++++++++++++++++ PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
+  /*+++ PAGINA MODA +++ */
   .moda-1{
   grid-template-columns: repeat(2,1fr);
   grid-template-areas:
@@ -982,14 +991,14 @@ form h6{
   "tittle-2 tittle-2"
   "div1-2 div2-2"
   }
-  /*+++++++++++++++++++++++++++++++++++++++ FIN PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
+  /*+++ FIN PAGINA MODA +++ */
 
 
 
 
 
 
-  /*+++++++++++++++++++++++++++++++++++++++++ PAGINA LOOKS +++++++++++++++++++++++++++++++++++++++ */
+  /*+++ PAGINA LOOKS +++ */
 
   .looksRight{
     grid-template-areas:
@@ -1053,8 +1062,8 @@ form h6{
     grid-area: img-estilo3;
   }
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA LOOKS +++++++++++++++++++++++++++++++++++++++ */
-/*+++++++++++++++++++++++++++++++++++++++++ PAGINA FREGANCIAS  +++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA LOOKS +++ */
+/*+++PAGINA FREGANCIAS  +++ */
 
 
 /* .aromas{
@@ -1065,11 +1074,11 @@ form h6{
 
   ;
 } */
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA FREGANCIAS +++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA FREGANCIAS +++ */
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++  PAGINA ACCESORIOS +++++++++++++++++++++++++++++++++++++++ */
+/*+++ PAGINA ACCESORIOS +++ */
 .accesorios{
   gap:2rem;
   grid-template-columns: 1fr;
@@ -1080,14 +1089,14 @@ form h6{
   "accesorio2"
 }
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA ACCESORIOS +++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA ACCESORIOS +++ */
 
 
 
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++  PAGINA EXPERIENCIAS +++++++++++++++++++++++++++++++++++++++ */
+/*+++  PAGINA EXPERIENCIAS +++ */
 
 .experiencias{
   gap: 0rem;
@@ -1114,7 +1123,7 @@ form h6{
 }
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA EXPERIENCIAS +++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA EXPERIENCIAS +++ */
 
 
 
@@ -1126,9 +1135,9 @@ form h6{
 
 
 }
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* //////////////////////////////////////// RESPONSIVE DIMENSIONS 730px /////////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* /// RESPONSIVE DIMENSIONS 730px /// */
+
 
 
 
@@ -1136,20 +1145,20 @@ form h6{
 
 @media (max-width: 730px){
 
-  /*+++++++++++++++++++++++++++++++++++++++++ PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
+  /*+++ PAGINA MODA +++ */
   .preliminares{
     display: none;
   }
   video{
     max-width: 100%;
   }
-  /*+++++++++++++++++++++++++++++++++++++++ FIN PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
+  /*+++ FIN PAGINA MODA +++ */
 
 
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ PAGINA FREGANCIAS +++ */
 
 /* .aromas{
   grid-template-columns: repeat(2,fr);
@@ -1160,13 +1169,13 @@ form h6{
   ;
 } */
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA FREGANCIAS +++ */
 
 
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FOOTER +++ */
 
 
 footer{
@@ -1182,16 +1191,16 @@ footer{
 }
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN FOOTER ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN FOOTER +++ */
 
 
 
 
 
 }
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* ////////////////////////////////////////// RESPONSIVE DIMENSIONS 650px ///////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* /// RESPONSIVE DIMENSIONS 650px /// */
+
 
 
 
@@ -1199,7 +1208,7 @@ footer{
 
 @media (max-width: 650px){
 
-  /*+++++++++++++++++++++++++++++++++++++++ GENERALES ++++++++++++++++++++++++++++++++++++++ */
+  /*+++ GENERALES +++ */
 
   h1{
       font-size: 1.5rem;
@@ -1237,14 +1246,14 @@ footer{
   footer p{
     font-size: .75rem;
   }
-  /*+++++++++++++++++++++++++++++++++++++++ FIN GENERALES ++++++++++++++++++++++++++++++++++++++ */
+  /*+++ FIN GENERALES +++ */
 
 
 
 
 
 
-  /*+++++++++++++++++++++++++++++++++++++++ PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
+  /*+++ PAGINA MODA +++ */
   .moda-1{
   border-right: .275rem solid #FFD700;
   grid-template-columns: 1fr;
@@ -1281,7 +1290,7 @@ footer{
     margin-bottom: 0;
   }
 
-/*+++++++++++++++++++++++++++++++++++++++ FIN PAGINA MODA ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA MODA +++ */
 
 
 
@@ -1289,7 +1298,7 @@ footer{
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ PAGINA LOOKS +++++++++++++++++++++++++++++++++++++++ */
+/*+++ PAGINA LOOKS +++ */
 
  .estilo1{
   align-items: center;
@@ -1350,7 +1359,7 @@ footer{
   text-align: center;
 }
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA LOOKS +++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA LOOKS +++ */
 
 
 
@@ -1359,7 +1368,7 @@ footer{
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ PAGINA ACCESORIOS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ PAGINA ACCESORIOS +++ */
 
 .accesorios{
   gap:2rem;
@@ -1397,7 +1406,7 @@ footer{
   display: none;
 }
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA ACCESORIOS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA ACCESORIOS +++ */
 
 
 
@@ -1411,9 +1420,9 @@ footer{
 
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
-/* ////////////////////////////////////////// RESPONSIVE DIMENSIONS 500px ///////////////////////////////// */
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* /// RESPONSIVE DIMENSIONS 500px /// */
+
 
 
 
@@ -1424,7 +1433,7 @@ footer{
 
 @media (max-width: 500px){
 
-/*+++++++++++++++++++++++++++++++++++++++++ PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ PAGINA FREGANCIAS +++ */
 
 /* .aromas{
   grid-template-columns: 1fr;
@@ -1440,7 +1449,7 @@ footer{
 
 } */
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA FREGANCIAS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA FREGANCIAS ++++ */
 
 
 
@@ -1448,7 +1457,7 @@ footer{
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ PAGINA ACCESORIOS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ PAGINA ACCESORIOS +++ */
 
 .accesorios{
   gap:2rem;
@@ -1460,7 +1469,7 @@ footer{
   "accesorio2"
 }
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN PAGINA ACCESORIOS ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN PAGINA ACCESORIOS +++ */
 
 
 
@@ -1468,7 +1477,7 @@ footer{
 
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ FOOTER ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FOOTER +++ */
 
 footer{
   gap: 1rem;
@@ -1495,7 +1504,7 @@ footer div{
 }
 
 
-/*+++++++++++++++++++++++++++++++++++++++++ FIN FOOTER ++++++++++++++++++++++++++++++++++++++ */
+/*+++ FIN FOOTER +++ */
 
 }
 
